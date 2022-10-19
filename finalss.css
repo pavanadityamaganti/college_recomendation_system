@@ -1,0 +1,22 @@
+body{
+}
+ul{
+	list-style: none;
+	padding: 0px;
+}
+ul li{
+	float: left;
+	color: red;
+	height: 20px;
+	width: 185px;
+	background-color: aqua;
+}
+ul li a:hover{
+	background-color: orange;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}

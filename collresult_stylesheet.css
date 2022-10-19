@@ -1,0 +1,39 @@
+#b{
+	background-image: url("college11.jpg");
+	background-size:cover;
+}
+#d{
+	background-color: lightblue;
+	width:400px;
+	height:35px;
+}
+.menu{
+	background-color: skyblue;
+	border-radius: 20px;
+	width:100px;
+}
+.division{;
+	height:250px;
+	width:900px;
+	margin:10px;
+	border-radius: 30px;
+	background-color: lightblue;
+}
+.indiv{
+	padding:15px;
+	margin:10px;
+	height:200px;
+	width:250px;
+	float:left;
+	border-radius: 20px;
+	background-color: skyblue;
+}
+.menu:hover{
+	transform: scale(1.2);
+}
+.indiv:hover{
+	transform:scale(1.1);
+	transition-duration: 1s;
+	background-color:gray;
+	animation-direction: alternate;
+}
